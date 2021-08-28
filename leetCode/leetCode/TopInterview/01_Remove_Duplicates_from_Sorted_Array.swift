@@ -8,18 +8,22 @@
 import Foundation
 class Solution2 {
     func removeDuplicates(_ nums: inout [Int]) -> Int {
-        var outputNums : [String] = []
-        for i in nums {
-            if nums.firstIndex(of:i) != nil {
-                outputNums.append("_")
-            } else {
-                outputNums.append("\(i)")
+        if nums.count == 0 {
+            return 0
+        }
+        
+        var index:Int = 1
+        
+        for i in 1..<nums.count {
+            if nums[i] != nums[i - 1] {
+                nums[index] = nums[i]
+                print(nums)
+                index += 1
+            }else{
+                print(nums)
             }
         }
         
-        let outputMap = outputNums.compactMap{ str in Int(str) }
-        outputNums.sorted(by:<)
-        print(outputNums)
-        return outputNums.count
+        return index
     }
 }
