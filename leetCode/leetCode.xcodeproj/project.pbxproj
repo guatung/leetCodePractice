@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		845BB2F126DA045E00C0FE90 /* 01_Remove_Duplicates_from_Sorted_Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845BB2F026DA045E00C0FE90 /* 01_Remove_Duplicates_from_Sorted_Array.swift */; };
 		84F3A35B26D4F7AA00DCA647 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F3A35A26D4F7AA00DCA647 /* AppDelegate.swift */; };
 		84F3A35D26D4F7AA00DCA647 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F3A35C26D4F7AA00DCA647 /* SceneDelegate.swift */; };
 		84F3A35F26D4F7AA00DCA647 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F3A35E26D4F7AA00DCA647 /* ViewController.swift */; };
@@ -18,7 +17,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		845BB2F026DA045E00C0FE90 /* 01_Remove_Duplicates_from_Sorted_Array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 01_Remove_Duplicates_from_Sorted_Array.swift; sourceTree = "<group>"; };
 		84F3A35726D4F7AA00DCA647 /* leetCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = leetCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84F3A35A26D4F7AA00DCA647 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84F3A35C26D4F7AA00DCA647 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -41,14 +39,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		845BB2EF26DA041900C0FE90 /* TopInterview */ = {
-			isa = PBXGroup;
-			children = (
-				845BB2F026DA045E00C0FE90 /* 01_Remove_Duplicates_from_Sorted_Array.swift */,
-			);
-			path = TopInterview;
-			sourceTree = "<group>";
-		};
 		84F3A34E26D4F7AA00DCA647 = {
 			isa = PBXGroup;
 			children = (
@@ -68,7 +58,6 @@
 		84F3A35926D4F7AA00DCA647 /* leetCode */ = {
 			isa = PBXGroup;
 			children = (
-				845BB2EF26DA041900C0FE90 /* TopInterview */,
 				84F3A36F26D4F7B300DCA647 /* 100 */,
 				84F3A35A26D4F7AA00DCA647 /* AppDelegate.swift */,
 				84F3A35C26D4F7AA00DCA647 /* SceneDelegate.swift */,
@@ -161,7 +150,6 @@
 			files = (
 				84F3A35F26D4F7AA00DCA647 /* ViewController.swift in Sources */,
 				84F3A35B26D4F7AA00DCA647 /* AppDelegate.swift in Sources */,
-				845BB2F126DA045E00C0FE90 /* 01_Remove_Duplicates_from_Sorted_Array.swift in Sources */,
 				84F3A35D26D4F7AA00DCA647 /* SceneDelegate.swift in Sources */,
 				84F3A37226D4F7C900DCA647 /* easy.swift in Sources */,
 			);

@@ -8,11 +8,11 @@
 import UIKit
 
 class ViewController: UIViewController {
-    var Solution2_ = Solution2()
-    var test = [1,2,2,2,6]
+    var Solution_ = Solution()
+    var test = "({})"
     override func viewDidLoad() {
         super.viewDidLoad()
-        Solution2_.removeDuplicates(&test)
+        Solution_.isValid(test)
         
     }
 
